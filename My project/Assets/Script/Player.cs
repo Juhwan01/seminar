@@ -82,7 +82,6 @@ public class Player : MonoBehaviour
             {
                 case "Right":
                     isTouchRight = true;
-                    Debug.Log(collision.gameObject.name);
                     break;
                 case "Left":
                     isTouchLeft = true;
